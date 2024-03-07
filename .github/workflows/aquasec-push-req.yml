@@ -39,6 +39,5 @@ jobs:
               --access-token "${{ secrets.GITHUB_TOKEN }}" \
               --aqua-key "${{ secrets.AQUA_KEY }}" \
               --aqua-secret "${{ secrets.AQUA_SECRET }}" \
-              --artifact-path "stalibali/graphqlliveview:${{ github.sha }}" \
               --report-format sbom \
               --sbom-path sbom.cdx.json
